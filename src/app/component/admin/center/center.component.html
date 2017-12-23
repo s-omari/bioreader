@@ -1,0 +1,14 @@
+<div 
+*ngIf="!rightExpanded" 
+[class.col-md-5]="rightExpanded" 
+[class.col-md-12]="!rightExpanded">
+  
+    <data-table 
+    [table]='table' 
+    [data]="data" 
+    (onSelect)="onItemSelect($event)">
+    </data-table>
+  <!-- 	<span (click)="getMore()" class="btn btn-info col-md-12"> Show More</span> -->
+  
+</div><!--  end col-md -->
+  

@@ -1,0 +1,67 @@
+<div class="container">
+    
+      <div class="row">
+ 
+    <div class="col-md-12">
+    
+    
+    <h2 class="pull-left">{{organism?.name}}</h2>
+    
+    <ul class="pull-right well">
+      <li>species: {{organism?.species}}</li>
+      <li>genus: {{organism?.genus}}</li>
+      <li>taxon id: {{organism?.taxid}}</li>
+    </ul>
+    
+    </div>
+    
+    </div><!-- end row -->
+
+
+
+
+    <div class="row">
+        <div class="col-md-12">
+          <ul class="nav nav-tabs">
+            
+            <li class="active"><a href="#GeneralInfoTab" data-toggle="tab">General Info</a></li>
+   
+            </ul>
+      
+            <div class="tab-content">
+              
+              <div class="tab-pane active" id="GeneralInfoTab">
+                
+                <div class="well">  
+                  <h4>{{protein?.name}} description:</h4>
+                  <p>{{protein?.description}}</p>
+                </div>
+
+
+                <div class="row">
+                    <div class="col-md-4">
+                        <pre>{{ ncbi | json}}</pre>
+                    </div>
+                    <div class="col-md-4">
+                        <pre>{{ ebi | json}}</pre>
+                      </div>
+                      <div class="col-md-4">
+                          <pre>{{ mygene | json}}</pre>
+                        </div>
+                </div>
+                
+      
+                  
+              </div>
+
+              
+      
+      
+            </div> <!-- end tab-content -->
+        </div>
+      </div>
+
+
+
+
+</div>

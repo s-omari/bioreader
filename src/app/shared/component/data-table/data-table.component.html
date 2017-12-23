@@ -1,0 +1,45 @@
+<div *ngIf="table" class="row-fluid">
+		<div class="">
+<input
+type="text" 
+class="form-control col-md-12 datatable-filter-input"
+type="text" 
+[(ngModel)]="term"
+placeholder="filter">
+		</div>
+		
+</div>
+<table class="table table-bordered " >
+
+  	<tr *ngFor=" let item of data | filter:term ; let i = index ">
+
+		<td width="20">{{item.id}} </td>
+		
+
+		<ng-container [ngSwitch]="true">          
+			<ng-container *ngSwitchCase="table === 'categorie'   || table === 'protein' || table === 'organism'">      
+				<td> <h5>  {{item.name}} </h5></td>
+			</ng-container>                         
+			<ng-container *ngSwitchCase="table === 'proteintype'">      
+				<td> <h5>  {{item.type}} </h5></td>
+			</ng-container>       
+			<ng-container *ngSwitchCase="table === 'proteinreference'">      
+				<td> <h5> Protein Id: {{item.protein_id}} -- DB:{{item.database}} | {{item.accession}} </h5></td>
+			</ng-container>
+			<ng-container *ngSwitchCase="table === 'blogpost'">      
+					<td> <h5> {{item.title}} </h5></td>
+			</ng-container>                        
+		</ng-container> 
+		
+
+
+
+  	<td width="50">
+  	<div class="pull-right">
+    <span 
+    (click)="SelectItem( item)" 
+     class="btn btn-info btn-sm glyphicon glyphicon-eye-open"></span>
+  	</div>
+  	</td>
+	</tr>
+</table>

@@ -1,0 +1,27 @@
+<!-- <pre>{{ post | json}}</pre> -->
+
+<div class="row">
+    <br>
+    <div class="col-md-12">
+        <a href="#" class=""><img class="img-responsive" style="" src="//placehold.it/900x300"></a>
+    </div>
+    <div class="col-md-12">
+        <h3><a (click)="selectItem(post)">{{ post.title }}</a></h3>
+        <div class="row">
+            <div class="col-md-12">
+                <p>{{ post.description }}</p>
+                <p class="lead"><button (click)="selectItem(post)" class="btn btn-default">Read More</button></p>
+
+                <p class="pull-right"><span class="label label-default">Tags</span> 
+                    <span class="label main-color">tag</span> 
+                    <span class="label main-color">post</span>
+                </p>
+                <ul class="list-inline">
+                    <li><a href="#">2 Days Ago</a></li>
+                    <li><a href="#"><i class="glyphicon glyphicon-comment"></i> 4 Comments</a></li>
+                </ul>
+            </div>
+        </div>
+        <br>
+    </div>
+</div>

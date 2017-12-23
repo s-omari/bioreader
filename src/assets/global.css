@@ -1,0 +1,778 @@
+.navbar-form input, .form-inline input {
+  width:auto;
+}
+
+
+.menu-bar [class^="flaticon-"]:before, 
+.menu-bar [class*=" flaticon-"]:before, 
+.menu-bar [class^="flaticon-"]:after, 
+.menu-bar [class*=" flaticon-"]:after {
+    font-size: 43px;
+}
+
+a:hover {
+  text-decoration: none;
+}
+a , p a {
+  color:#2a6496;
+  text-decoration:none;
+}
+
+header a , header a:hover , a i , h1 a , h2 a , h3 a  ,h4 a , h5 a ,h6 a {
+  color: black;
+}
+
+ {
+  color: black;
+}
+
+.bold {
+  font-weight: bold;
+}
+.block {
+display:block;
+}
+.main-color {
+    background-color: #1abc9c !important;
+    fill: #1abc9c !important;
+}
+
+.label {
+    border-radius: 0.25em;
+    color: #fff;
+    display: inline-block;
+    font-size: 75%;
+    font-weight: 700;
+    margin: 3px;
+    padding: 7px;
+    text-align: center;
+}
+.navbar-brand {
+  
+    font-size: 33px;
+    height: 50px;
+    line-height: 20px;
+    padding: 32px;
+}
+
+.menu-bar .active {
+  background-color: #eee;
+}
+.menu-bar i {
+    clear: both;
+    display: block;
+    font-size: 30px;
+    margin: 0 0 5px -18px;
+    padding: 0;
+}
+.menu-bar li {
+    font-size: 15px;
+    max-width: 115px;
+    min-width: 115px; 
+    text-align: center;
+}
+.menu-bar li a {
+    padding: 25px 17px 10px;
+}
+
+
+
+
+
+    #custom-search-form {
+        margin:0;
+        margin-top: 5px;
+        padding: 0;
+    }
+ 
+    #custom-search-form .search-query {
+        padding-right: 3px;
+        padding-right: 4px \9;
+        padding-left: 3px;
+        padding-left: 4px \9;
+        /* IE7-8 doesn't have border-radius, so don't indent the padding */
+ 
+        margin-bottom: 0;
+        -webkit-border-radius: 3px;
+        -moz-border-radius: 3px;
+        border-radius: 3px;
+    }
+ 
+    #custom-search-form button {
+        border: 0;
+        background: none;
+        /** belows styles are working good */
+        padding: 2px 5px;
+        margin-top: 2px;
+        position: relative;
+        left: -28px;
+        /* IE7-8 doesn't have border-radius, so don't indent the padding */
+        margin-bottom: 0;
+        -webkit-border-radius: 3px;
+        -moz-border-radius: 3px;
+        border-radius: 3px;
+    }
+ 
+    .search-query:focus + button {
+        z-index: 3;   
+    }
+
+footer {
+  margin-top:40px;
+  padding-top:40px;
+  padding-bottom:40px;
+  background-color:#ededed;
+}
+
+
+#masthead {
+  min-height:199px;
+}
+
+#masthead h1 {
+  font-size: 55px;
+  line-height: 1;
+  margin-top:50px;
+}
+
+#masthead .well {
+  margin-top:31px;
+  min-height:127px;
+}
+
+.navbar.affix {
+  position:fixed;
+  top:0;
+  width:100%;
+}
+
+.story-img {
+  margin-top:25%;
+  display:block;
+}
+
+
+
+
+.icon-bar {
+  background-color:#fff;
+}
+
+@media screen and (min-width: 768px) {
+  #masthead h1 {
+    font-size: 80px;
+  }
+}
+
+.dropdown-menu {
+  min-width: 250px;
+}
+
+/* .panel {
+  border-color:transparent;
+  border-radius:0;
+}
+ */
+.thumbnail {
+  margin-bottom:8px;
+}
+
+.img-container {
+  overflow:hidden;
+  height:170px;
+}
+
+.img-container img {
+  min-width:280px;
+  min-height:180px;
+  max-width:380px;
+  max-height:280px;
+}
+
+.txt-container {
+  overflow:hidden;
+  height:100px;
+}
+
+.panel .lead {
+  overflow:hidden;
+  height:90px;
+}
+
+.label-float{
+  margin:0 auto;
+  position: absolute;
+  top: 0;
+  z-index: 1;
+  width:100%;
+  opacity:.9;
+  padding:6px;
+  color:#fff;
+}
+    
+.btn-twitter {background-color:#4099FF;color:#fff;}
+.btn-facebook {background-color:#3B5998;color:#fff;}
+.btn-google-plus {background-color:#d34836;color:#fff;}
+
+.btn-twitter:hover {background-color:#3088FF;color:#62BBFF;}
+.btn-facebook:hover {background-color:#2A4998;color:#4C6BBA;}
+.btn-google-plus:hover {background-color:#C23836;color:#E45A58;}
+
+
+
+
+ul li {
+	list-style: none;
+}
+
+
+
+/*  TREE SNIPP */ 
+.tree, .tree ul {
+    margin:0;
+    padding:0;
+    list-style:none
+}
+.tree ul {
+    margin-left:1em;
+    position:relative
+}
+.tree ul ul {
+    margin-left:.5em
+}
+.tree ul:before {
+    content:"";
+    display:block;
+    width:0;
+    position:absolute;
+    top:0;
+    bottom:0;
+    left:0;
+    border-left:1px solid
+}
+.tree li {
+    margin:0;
+    padding:0 1em;
+    line-height:2em;
+    color:#369;
+    font-weight:700;
+    position:relative
+}
+.tree ul li:before {
+    content:"";
+    display:block;
+    width:10px;
+    height:0;
+    border-top:1px solid;
+    margin-top:-1px;
+    position:absolute;
+    top:1em;
+    left:0
+}
+.tree ul li:last-child:before {
+    background:#fff;
+    height:auto;
+    top:1em;
+    bottom:0
+}
+.indicator {
+    margin-right:5px;
+}
+.tree li a {
+    text-decoration: none;
+    color:#369;
+}
+.tree li button, .tree li button:active, .tree li button:focus {
+    text-decoration: none;
+    color:#369;
+    border:none;
+    background:transparent;
+    margin:0px 0px 0px 0px;
+    padding:0px 0px 0px 0px;
+    outline: 0;
+}
+/*  /TREE SNIPP */
+
+
+
+
+.left-sidebar h6 {
+
+    color: #7A7A56;
+    font-size: 11px;
+    font-weight: bold;
+    margin: 5px 5px 5px 0;
+}
+
+
+/* Procedures Page*/
+ h2{color:#34ca78;}
+ .margin10 {margin-bottom:10px; margin-right:10px;}
+ .procedure-excript {
+ 	margin-bottom: 10px;
+ }
+ /* END Procedures */
+
+
+
+ /*  PRODUCTS PAGE */
+
+
+.col-item
+{
+    border: 1px solid #E1E1E1;
+    border-radius: 5px;
+    background: #FFF;
+        margin: 0 0 15px;
+
+  min-height: 210px;
+}
+
+.col-item .photo {
+  min-height: 210px;
+}
+
+
+.col-item .photo
+{
+    margin: 0 auto;
+    width: 100%;
+}
+.col-item .photo a {
+    display: block;
+    height: 210px;
+}
+
+
+.col-item .info {
+    border-radius: 0 0 5px 5px;
+    padding: 0;
+    text-align: center;
+}
+.col-item:hover .info {
+    background-color: #F5F5DC;
+}
+
+.col-item .info a {
+   display: inline;
+    font-weight: bold;
+
+}
+
+.col-item .price
+{
+    /*width: 50%;*/
+    float: left;
+    margin-top: 5px;
+}
+
+.col-item .price h5
+{
+    line-height: 20px;
+    margin: 0;
+}
+
+.price-text-color
+{
+    color: #219FD1;
+}
+
+
+
+.col-item .separator
+{
+    border-top: 1px solid #E1E1E1;
+}
+
+.clear-left
+{
+    clear: left;
+}
+
+.col-item .separator p
+{
+    line-height: 20px;
+    margin-bottom: 0;
+    margin-top: 10px;
+    text-align: center;
+}
+
+.col-item .separator p i
+{
+    margin-right: 5px;
+}
+.col-item .btn-add
+{
+    width: 50%;
+    float: left;
+}
+
+.col-item .btn-add
+{
+    border-right: 1px solid #E1E1E1;
+}
+
+.col-item .btn-details
+{
+    width: 50%;
+    float: left;
+    padding-left: 10px;
+}
+.controls
+{
+    margin-top: 20px;
+}
+[data-slide="prev"]
+{
+    margin-right: 10px;
+}
+
+
+ /*  END PRODUCTS PAGE */
+
+
+
+  .widget.blog-tags {
+    float: left;
+    padding-bottom: 25px;
+}
+ .widget {
+    float: left;
+    
+    padding-right: 30px;
+    text-align: left;
+    width: 100%;
+}
+ .delayed-2 {
+    animation-delay: 0.2s;
+}
+ * {
+    outline: medium none !important;
+}
+.fadeInUp {
+    animation-name: fadeInUp;
+}
+.animated {
+    animation-duration: 1s;
+    animation-fill-mode: both;
+}
+
+.widget h4 {
+    border-bottom: 1px solid #dfdfdf;
+    font-size: 12px;
+    font-weight: bold;
+    margin: 27px 0 15px;
+    padding: 10px 0;
+    text-transform: uppercase;
+}
+
+
+.widget [class^="flaticon-"]:before, .widget [class*=" flaticon-"]:before, .widget [class^="flaticon-"]:after, .widget [class*=" flaticon-"]:after {
+    font-size: 24px;
+    font-weight: normal;
+    margin: 0 5px 0 3px; 
+}
+
+
+
+ .widget h5 {
+    color: #929292;
+    font-family: "Raleway","Arial, sans-serif";
+    font-size: 2rem;
+    font-weight: 300;
+    line-height: 2rem;
+    padding-bottom: 15px;
+    text-decoration: none;
+    width: 100%;
+}
+}
+ h5 {
+    color: #252525;
+    font-family: "Raleway",Arial,sans-serif;
+    font-size: 1rem;
+    font-weight: 300;
+    margin: 0 0 25px;
+}
+ * {
+    outline: medium none !important;
+}
+
+ .widget.blog-tags ul {
+    border-bottom: 1px solid #e2e2e2;
+    border-top: 1px solid #e2e2e2;
+    float: left;
+    height: 100%;
+    list-style: outside none none;
+    margin: 0;
+    padding: 25px 0;
+    width: 100%;
+}
+
+ .widget.blog-tags ul li {
+    float: left;
+    padding: 2px;
+}
+
+
+
+
+
+/*  ECOMMERCE */ 
+.caption {
+    height: 130px;
+    overflow: hidden;
+}
+
+.caption h4 {
+    white-space: nowrap;
+}
+
+.thumbnail img {
+    width: 100%;
+}
+
+.ratings {
+    padding-right: 10px;
+    padding-left: 10px;
+    color: #d17581;
+}
+
+.thumbnail {
+    padding: 0;
+}
+
+.thumbnail .caption-full {
+    padding: 9px;
+    color: #333;
+}
+
+/*  /ECOMMERCE */ 
+
+
+
+
+/*  BLOG POST COMMENTS */ 
+
+/*Comment List styles*/
+.comment-list .row {
+  margin-bottom: 0px;
+}
+.comment-list .panel .panel-heading {
+  padding: 4px 15px;
+  position: absolute;
+  border:none;
+  /*Panel-heading border radius*/
+  border-top-right-radius:0px;
+  top: 1px;
+}
+.comment-list .panel .panel-heading.right {
+  border-right-width: 0px;
+  /*Panel-heading border radius*/
+  border-top-left-radius:0px;
+  right: 16px;
+}
+.comment-list .panel .panel-heading .panel-body {
+  padding-top: 6px;
+}
+.comment-list figcaption {
+  /*For wrapping text in thumbnail*/
+  word-wrap: break-word;
+}
+/* Portrait tablets and medium desktops */
+@media (min-width: 768px) {
+  .comment-list .arrow:after, .comment-list .arrow:before {
+    content: "";
+    position: absolute;
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-color: transparent;
+  }
+  .comment-list .panel.arrow.left:after, .comment-list .panel.arrow.left:before {
+    border-left: 0;
+  }
+  /*****Left Arrow*****/
+  /*Outline effect style*/
+  .comment-list .panel.arrow.left:before {
+    left: 0px;
+    top: 30px;
+    /*Use boarder color of panel*/
+    border-right-color: inherit;
+    border-width: 16px;
+  }
+  /*Background color effect*/
+  .comment-list .panel.arrow.left:after {
+    left: 1px;
+    top: 31px;
+    /*Change for different outline color*/
+    border-right-color: #FFFFFF;
+    border-width: 15px;
+  }
+  /*****Right Arrow*****/
+  /*Outline effect style*/
+  .comment-list .panel.arrow.right:before {
+    right: -16px;
+    top: 30px;
+    /*Use boarder color of panel*/
+    border-left-color: inherit;
+    border-width: 16px;
+  }
+  /*Background color effect*/
+  .comment-list .panel.arrow.right:after {
+    right: -14px;
+    top: 31px;
+    /*Change for different outline color*/
+    border-left-color: #FFFFFF;
+    border-width: 15px;
+  }
+}
+.comment-list .comment-post {
+  margin-top: 6px;
+}
+/*  /BLOG POST COMMENTS */
+
+
+
+
+
+
+
+
+
+
+/* 
+Custom CSS for...
+'Modern Business' HTML Theme by Start Bootstrap
+
+All Start Bootstrap themes are licensed under Apache 2.0. 
+For more info and more free Bootstrap 3 HTML themes, visit http://startbootstrap.com!
+*/
+
+/* Global Styles */
+
+html, body {
+    height: 100%;
+}
+
+body {
+    
+}
+
+.dropdown {
+    cursor:pointer;
+}
+
+
+.img-home-portfolio,
+.img-customer,
+.portfolio-item {
+    margin-bottom: 30px;
+}
+
+.tab-pane {
+    margin-top: 15px;
+}
+
+/* Page Sections */
+.section,
+.section-colored {
+    padding: 50px 0;
+}
+
+.section-colored {
+    background-color: #e1e1e1;
+    /* change this to change the background color of a colored section */
+}
+
+.sidebar {
+    margin-top: 40px;
+}
+
+.sidebar ul {
+    border-radius: 5px;
+    padding: 5px;
+    border: 1px solid #cccccc;
+}
+
+/* Half Page Height Carousel Customization */
+.carousel {
+    height: 50%;
+}
+
+.item,
+.active,
+.carousel-inner {
+    height: 100%;
+}
+
+.fill {
+    width: 100%;
+    height: 100%;
+    background-position: center;
+    background-size: cover;
+}
+
+/* Social Icons Styles */
+.list-social-icons {
+    margin-bottom: 45px;
+}
+
+.tooltip-social a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.facebook-link a:hover {
+    color: #3b5998;
+}
+
+.linkedin-link a:hover {
+    color: #007fb1;
+}
+
+.twitter-link a:hover {
+    color: #39a9e0;
+}
+
+.google-plus-link a:hover {
+    color: #d14836;
+}
+
+/* Service Page Styles */
+.service-icon {
+    font-size: 50px;
+}
+
+/* 404 Page Styles */
+.error-404 {
+    font-size: 8em;
+}
+
+/* Pricing Page Styles */
+.price {
+    font-size: 4em;
+}
+
+.price-cents {
+    vertical-align: super;
+    font-size: 50%;
+}
+
+.price-month {
+    font-size: 35%;
+    font-style: italic;
+}
+
+/* Footer Styles */
+footer {
+    margin: 50px 0;
+}
+
+/* Responsive Styles */
+@media (max-width: 767px) {
+
+    .carousel {
+        height: 70%;
+        /* increases the carousel height so it looks good on phones */
+    }
+}

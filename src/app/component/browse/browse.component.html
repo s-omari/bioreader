@@ -1,0 +1,45 @@
+<div class="container-fluid">
+        <div class="row-fluid">
+                <div class="col-md-9">
+
+                <router-outlet></router-outlet>
+                
+<!--                 <div class="row-fluid" *ngFor="let protein of data">
+                               
+                        <ng-container [ngSwitch]="true">          
+                                <ng-container *ngSwitchCase=" table === 'protein'">      
+                                        <protein-list [protein]='protein' (onSelect)="onItemSelect($event)"></protein-list>                
+                                </ng-container>                         
+                                <ng-container *ngSwitchCase="table === 'organism'">      
+                                        <organism-list [organism]='organism'></organism-list>
+                                </ng-container>                    
+                        </ng-container> 
+                </div> -->
+
+
+
+<!--                         <div *ngIf="table == 'protein'">
+                                        <div class="row-fluid" *ngFor="let protein of data">
+                                        <protein-listing [protein]='protein' (onSelect)="onItemSelect($event)"></protein-listing>
+                                </div>
+                        </div>
+
+                        <div *ngIf="table == 'organism'">
+                                <div class="row-fluid" *ngFor="let organism of data">
+                                        <organism-listing [organism]='organism'></organism-listing>
+                                </div>
+                        </div> -->
+
+
+
+                </div>
+                <!-- endcol -->
+                <div class="col-md-3">
+
+                </div>
+                <!-- endcol -->
+        </div>
+        <!-- row -->
+
+</div>
+<!-- end .roe -->

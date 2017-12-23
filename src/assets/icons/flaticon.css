@@ -1,0 +1,790 @@
+@font-face {
+	font-family: "Flaticon";
+	src: url("flaticon.eot");
+	src: url("flaticon.eot#iefix") format("embedded-opentype"),
+	url("flaticon.woff") format("woff"),
+	url("flaticon.ttf") format("truetype"),
+	url("flaticon.svg") format("svg");
+	font-weight: normal;
+	font-style: normal;
+}
+[class^="flaticon-"]:before, [class*=" flaticon-"]:before,
+[class^="flaticon-"]:after, [class*=" flaticon-"]:after {   
+	font-family: Flaticon;
+        font-size: 20px;
+font-style: normal;
+margin-left: 20px;
+}.flaticon-acid:before {
+	content: "\e000";
+}
+.flaticon-adn:before {
+	content: "\e001";
+}
+.flaticon-adn1:before {
+	content: "\e002";
+}
+.flaticon-adn2:before {
+	content: "\e003";
+}
+.flaticon-alert6:before {
+	content: "\e004";
+}
+.flaticon-atom12:before {
+	content: "\e005";
+}
+.flaticon-atom13:before {
+	content: "\e006";
+}
+.flaticon-atom16:before {
+	content: "\e007";
+}
+.flaticon-atom18:before {
+	content: "\e008";
+}
+.flaticon-atom2:before {
+	content: "\e009";
+}
+.flaticon-atom22:before {
+	content: "\e00a";
+}
+.flaticon-atom23:before {
+	content: "\e00b";
+}
+.flaticon-atom25:before {
+	content: "\e00c";
+}
+.flaticon-atom26:before {
+	content: "\e00d";
+}
+.flaticon-atom27:before {
+	content: "\e00e";
+}
+.flaticon-atom4:before {
+	content: "\e00f";
+}
+.flaticon-atomic:before {
+	content: "\e010";
+}
+.flaticon-atomic1:before {
+	content: "\e011";
+}
+.flaticon-bacteria:before {
+	content: "\e012";
+}
+.flaticon-bacteria1:before {
+	content: "\e013";
+}
+.flaticon-bacteria3:before {
+	content: "\e014";
+}
+.flaticon-bald29:before {
+	content: "\e015";
+}
+.flaticon-beaker2:before {
+	content: "\e016";
+}
+.flaticon-beaker4:before {
+	content: "\e017";
+}
+.flaticon-beaker5:before {
+	content: "\e018";
+}
+.flaticon-beaker6:before {
+	content: "\e019";
+}
+.flaticon-beaker7:before {
+	content: "\e01a";
+}
+.flaticon-beaker8:before {
+	content: "\e01b";
+}
+.flaticon-big10:before {
+	content: "\e01c";
+}
+.flaticon-bio1:before {
+	content: "\e01d";
+}
+.flaticon-bio2:before {
+	content: "\e01e";
+}
+.flaticon-bio4:before {
+	content: "\e01f";
+}
+.flaticon-biohazard:before {
+	content: "\e020";
+}
+.flaticon-biological:before {
+	content: "\e021";
+}
+.flaticon-biological1:before {
+	content: "\e022";
+}
+.flaticon-biology:before {
+	content: "\e023";
+}
+.flaticon-biotech:before {
+	content: "\e024";
+}
+.flaticon-blood5:before {
+	content: "\e025";
+}
+.flaticon-blood7:before {
+	content: "\e026";
+}
+.flaticon-body3:before {
+	content: "\e027";
+}
+.flaticon-body5:before {
+	content: "\e028";
+}
+.flaticon-book132:before {
+	content: "\e029";
+}
+.flaticon-book140:before {
+	content: "\e02a";
+}
+.flaticon-bottle44:before {
+	content: "\e02b";
+}
+.flaticon-brain4:before {
+	content: "\e02c";
+}
+.flaticon-brain5:before {
+	content: "\e02d";
+}
+.flaticon-businessman213:before {
+	content: "\e02e";
+}
+.flaticon-cell7:before {
+	content: "\e02f";
+}
+.flaticon-cells:before {
+	content: "\e030";
+}
+.flaticon-cells1:before {
+	content: "\e031";
+}
+.flaticon-chemical:before {
+	content: "\e032";
+}
+.flaticon-chemical2:before {
+	content: "\e033";
+}
+.flaticon-chemist:before {
+	content: "\e034";
+}
+.flaticon-chemistry:before {
+	content: "\e035";
+}
+.flaticon-chemistry1:before {
+	content: "\e036";
+}
+.flaticon-chemistry10:before {
+	content: "\e037";
+}
+.flaticon-chemistry12:before {
+	content: "\e038";
+}
+.flaticon-chemistry13:before {
+	content: "\e039";
+}
+.flaticon-chemistry14:before {
+	content: "\e03a";
+}
+.flaticon-chemistry15:before {
+	content: "\e03b";
+}
+.flaticon-chemistry16:before {
+	content: "\e03c";
+}
+.flaticon-chemistry2:before {
+	content: "\e03d";
+}
+.flaticon-chemistry3:before {
+	content: "\e03e";
+}
+.flaticon-chemistry4:before {
+	content: "\e03f";
+}
+.flaticon-chemistry5:before {
+	content: "\e040";
+}
+.flaticon-chemistry6:before {
+	content: "\e041";
+}
+.flaticon-chemistry7:before {
+	content: "\e042";
+}
+.flaticon-chemistry8:before {
+	content: "\e043";
+}
+.flaticon-chemistry9:before {
+	content: "\e044";
+}
+.flaticon-chromosome:before {
+	content: "\e045";
+}
+.flaticon-computer128:before {
+	content: "\e046";
+}
+.flaticon-cube9:before {
+	content: "\e047";
+}
+.flaticon-dangerous:before {
+	content: "\e048";
+}
+.flaticon-dangerous1:before {
+	content: "\e049";
+}
+.flaticon-data106:before {
+	content: "\e04a";
+}
+.flaticon-death1:before {
+	content: "\e04b";
+}
+.flaticon-digital13:before {
+	content: "\e04c";
+}
+.flaticon-dna:before {
+	content: "\e04d";
+}
+.flaticon-dna1:before {
+	content: "\e04e";
+}
+.flaticon-dna10:before {
+	content: "\e04f";
+}
+.flaticon-dna11:before {
+	content: "\e050";
+}
+.flaticon-dna12:before {
+	content: "\e051";
+}
+.flaticon-dna13:before {
+	content: "\e052";
+}
+.flaticon-dna2:before {
+	content: "\e053";
+}
+.flaticon-dna3:before {
+	content: "\e054";
+}
+.flaticon-dna4:before {
+	content: "\e055";
+}
+.flaticon-dna5:before {
+	content: "\e056";
+}
+.flaticon-dna6:before {
+	content: "\e057";
+}
+.flaticon-dna7:before {
+	content: "\e058";
+}
+.flaticon-dna8:before {
+	content: "\e059";
+}
+.flaticon-dna9:before {
+	content: "\e05a";
+}
+.flaticon-drug2:before {
+	content: "\e05b";
+}
+.flaticon-eco21:before {
+	content: "\e05c";
+}
+.flaticon-educative6:before {
+	content: "\e05d";
+}
+.flaticon-egg12:before {
+	content: "\e05e";
+}
+.flaticon-electronic58:before {
+	content: "\e05f";
+}
+.flaticon-erlenmeyer1:before {
+	content: "\e060";
+}
+.flaticon-experiment:before {
+	content: "\e061";
+}
+.flaticon-experimentation:before {
+	content: "\e062";
+}
+.flaticon-eyedropper1:before {
+	content: "\e063";
+}
+.flaticon-eyedropper2:before {
+	content: "\e064";
+}
+.flaticon-female127:before {
+	content: "\e065";
+}
+.flaticon-female217:before {
+	content: "\e066";
+}
+.flaticon-female22:before {
+	content: "\e067";
+}
+.flaticon-filled:before {
+	content: "\e068";
+}
+.flaticon-filled3:before {
+	content: "\e069";
+}
+.flaticon-filled5:before {
+	content: "\e06a";
+}
+.flaticon-filled6:before {
+	content: "\e06b";
+}
+.flaticon-flask11:before {
+	content: "\e06c";
+}
+.flaticon-flask13:before {
+	content: "\e06d";
+}
+.flaticon-flask15:before {
+	content: "\e06e";
+}
+.flaticon-flask4:before {
+	content: "\e06f";
+}
+.flaticon-flask5:before {
+	content: "\e070";
+}
+.flaticon-flask6:before {
+	content: "\e071";
+}
+.flaticon-flask7:before {
+	content: "\e072";
+}
+.flaticon-flask8:before {
+	content: "\e073";
+}
+.flaticon-flask9:before {
+	content: "\e074";
+}
+.flaticon-flasks:before {
+	content: "\e075";
+}
+.flaticon-flasks1:before {
+	content: "\e076";
+}
+.flaticon-flasks2:before {
+	content: "\e077";
+}
+.flaticon-fumes:before {
+	content: "\e078";
+}
+.flaticon-funnel12:before {
+	content: "\e079";
+}
+.flaticon-fused:before {
+	content: "\e07a";
+}
+.flaticon-genius:before {
+	content: "\e07b";
+}
+.flaticon-glass43:before {
+	content: "\e07c";
+}
+.flaticon-graphic18:before {
+	content: "\e07d";
+}
+.flaticon-heating4:before {
+	content: "\e07e";
+}
+.flaticon-hexagon6:before {
+	content: "\e07f";
+}
+.flaticon-hexagons1:before {
+	content: "\e080";
+}
+.flaticon-image53:before {
+	content: "\e081";
+}
+.flaticon-injection2:before {
+	content: "\e082";
+}
+.flaticon-jerrycan:before {
+	content: "\e083";
+}
+.flaticon-journalist13:before {
+	content: "\e084";
+}
+.flaticon-kidney:before {
+	content: "\e085";
+}
+.flaticon-lab:before {
+	content: "\e086";
+}
+.flaticon-lab1:before {
+	content: "\e087";
+}
+.flaticon-lab2:before {
+	content: "\e088";
+}
+.flaticon-lab3:before {
+	content: "\e089";
+}
+.flaticon-liquid13:before {
+	content: "\e08a";
+}
+.flaticon-lung:before {
+	content: "\e08b";
+}
+.flaticon-magnifier40:before {
+	content: "\e08c";
+}
+.flaticon-magnifier47:before {
+	content: "\e08d";
+}
+.flaticon-male141:before {
+	content: "\e08e";
+}
+.flaticon-male148:before {
+	content: "\e08f";
+}
+.flaticon-male171:before {
+	content: "\e090";
+}
+.flaticon-male172:before {
+	content: "\e091";
+}
+.flaticon-market:before {
+	content: "\e092";
+}
+.flaticon-medical27:before {
+	content: "\e093";
+}
+.flaticon-medical45:before {
+	content: "\e094";
+}
+.flaticon-medicine13:before {
+	content: "\e095";
+}
+.flaticon-medicine2:before {
+	content: "\e096";
+}
+.flaticon-medicine34:before {
+	content: "\e097";
+}
+.flaticon-microscope:before {
+	content: "\e098";
+}
+.flaticon-microscope10:before {
+	content: "\e099";
+}
+.flaticon-microscope13:before {
+	content: "\e09a";
+}
+.flaticon-microscope14:before {
+	content: "\e09b";
+}
+.flaticon-microscope16:before {
+	content: "\e09c";
+}
+.flaticon-microscope17:before {
+	content: "\e09d";
+}
+.flaticon-microscope20:before {
+	content: "\e09e";
+}
+.flaticon-microscope22:before {
+	content: "\e09f";
+}
+.flaticon-microscope23:before {
+	content: "\e0a0";
+}
+.flaticon-microscope4:before {
+	content: "\e0a1";
+}
+.flaticon-microscope5:before {
+	content: "\e0a2";
+}
+.flaticon-microscope8:before {
+	content: "\e0a3";
+}
+.flaticon-microscope9:before {
+	content: "\e0a4";
+}
+.flaticon-molecular:before {
+	content: "\e0a5";
+}
+.flaticon-molecule:before {
+	content: "\e0a6";
+}
+.flaticon-molecule2:before {
+	content: "\e0a7";
+}
+.flaticon-molecule3:before {
+	content: "\e0a8";
+}
+.flaticon-molecule5:before {
+	content: "\e0a9";
+}
+.flaticon-molecule6:before {
+	content: "\e0aa";
+}
+.flaticon-molecule7:before {
+	content: "\e0ab";
+}
+.flaticon-molecules:before {
+	content: "\e0ac";
+}
+.flaticon-molecules1:before {
+	content: "\e0ad";
+}
+.flaticon-molecules2:before {
+	content: "\e0ae";
+}
+.flaticon-molecules3:before {
+	content: "\e0af";
+}
+.flaticon-money127:before {
+	content: "\e0b0";
+}
+.flaticon-mosquito2:before {
+	content: "\e0b1";
+}
+.flaticon-mouse31:before {
+	content: "\e0b2";
+}
+.flaticon-note27:before {
+	content: "\e0b3";
+}
+.flaticon-notebook30:before {
+	content: "\e0b4";
+}
+.flaticon-nucleus:before {
+	content: "\e0b5";
+}
+.flaticon-orbital:before {
+	content: "\e0b6";
+}
+.flaticon-oxygen1:before {
+	content: "\e0b7";
+}
+.flaticon-oxygen2:before {
+	content: "\e0b8";
+}
+.flaticon-oxygenation:before {
+	content: "\e0b9";
+}
+.flaticon-pest:before {
+	content: "\e0ba";
+}
+.flaticon-pill12:before {
+	content: "\e0bb";
+}
+.flaticon-pills2:before {
+	content: "\e0bc";
+}
+.flaticon-pipette:before {
+	content: "\e0bd";
+}
+.flaticon-pipette1:before {
+	content: "\e0be";
+}
+.flaticon-pipette2:before {
+	content: "\e0bf";
+}
+.flaticon-plant23:before {
+	content: "\e0c0";
+}
+.flaticon-plant29:before {
+	content: "\e0c1";
+}
+.flaticon-plant30:before {
+	content: "\e0c2";
+}
+.flaticon-plate4:before {
+	content: "\e0c3";
+}
+.flaticon-protection2:before {
+	content: "\e0c4";
+}
+.flaticon-radar2:before {
+	content: "\e0c5";
+}
+.flaticon-radar5:before {
+	content: "\e0c6";
+}
+.flaticon-radioactive2:before {
+	content: "\e0c7";
+}
+.flaticon-rain18:before {
+	content: "\e0c8";
+}
+.flaticon-reproductive:before {
+	content: "\e0c9";
+}
+.flaticon-research:before {
+	content: "\e0ca";
+}
+.flaticon-science:before {
+	content: "\e0cb";
+}
+.flaticon-science1:before {
+	content: "\e0cc";
+}
+.flaticon-science10:before {
+	content: "\e0cd";
+}
+.flaticon-science13:before {
+	content: "\e0ce";
+}
+.flaticon-science14:before {
+	content: "\e0cf";
+}
+.flaticon-science16:before {
+	content: "\e0d0";
+}
+.flaticon-science17:before {
+	content: "\e0d1";
+}
+.flaticon-science18:before {
+	content: "\e0d2";
+}
+.flaticon-science2:before {
+	content: "\e0d3";
+}
+.flaticon-science3:before {
+	content: "\e0d4";
+}
+.flaticon-science8:before {
+	content: "\e0d5";
+}
+.flaticon-science9:before {
+	content: "\e0d6";
+}
+.flaticon-scientific:before {
+	content: "\e0d7";
+}
+.flaticon-scientist:before {
+	content: "\e0d8";
+}
+.flaticon-shape4:before {
+	content: "\e0d9";
+}
+.flaticon-sperm:before {
+	content: "\e0da";
+}
+.flaticon-sperm1:before {
+	content: "\e0db";
+}
+.flaticon-sperms:before {
+	content: "\e0dc";
+}
+.flaticon-sperms1:before {
+	content: "\e0dd";
+}
+.flaticon-spheres:before {
+	content: "\e0de";
+}
+.flaticon-spherical3:before {
+	content: "\e0df";
+}
+.flaticon-spider3:before {
+	content: "\e0e0";
+}
+.flaticon-stomach2:before {
+	content: "\e0e1";
+}
+.flaticon-teacher32:before {
+	content: "\e0e2";
+}
+.flaticon-testtube:before {
+	content: "\e0e3";
+}
+.flaticon-testtube1:before {
+	content: "\e0e4";
+}
+.flaticon-testtube3:before {
+	content: "\e0e5";
+}
+.flaticon-test1:before {
+	content: "\e0e6";
+}
+.flaticon-test10:before {
+	content: "\e0e7";
+}
+.flaticon-test14:before {
+	content: "\e0e8";
+}
+.flaticon-test15:before {
+	content: "\e0e9";
+}
+.flaticon-test16:before {
+	content: "\e0ea";
+}
+.flaticon-test17:before {
+	content: "\e0eb";
+}
+.flaticon-test2:before {
+	content: "\e0ec";
+}
+.flaticon-test26:before {
+	content: "\e0ed";
+}
+.flaticon-test27:before {
+	content: "\e0ee";
+}
+.flaticon-test28:before {
+	content: "\e0ef";
+}
+.flaticon-test29:before {
+	content: "\e0f0";
+}
+.flaticon-test3:before {
+	content: "\e0f1";
+}
+.flaticon-test6:before {
+	content: "\e0f2";
+}
+.flaticon-test8:before {
+	content: "\e0f3";
+}
+.flaticon-test9:before {
+	content: "\e0f4";
+}
+.flaticon-testing1:before {
+	content: "\e0f5";
+}
+.flaticon-text86:before {
+	content: "\e0f6";
+}
+.flaticon-thermometer28:before {
+	content: "\e0f7";
+}
+.flaticon-thermometer30:before {
+	content: "\e0f8";
+}
+.flaticon-two168:before {
+	content: "\e0f9";
+}
+.flaticon-universe:before {
+	content: "\e0fa";
+}
+.flaticon-urine:before {
+	content: "\e0fb";
+}
+.flaticon-volumetric:before {
+	content: "\e0fc";
+}
+.flaticon-volumetric1:before {
+	content: "\e0fd";
+}
+.flaticon-volumetric2:before {
+	content: "\e0fe";
+}
+.flaticon-zoom35:before {
+	content: "\e0ff";
+}
+.flaticon-news26:before {
+	content: "\e0g0";
+}
+.flaticon-newspapers:before {
+	content: "\e0g1";
+}

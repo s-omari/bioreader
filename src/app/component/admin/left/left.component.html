@@ -1,0 +1,45 @@
+<div class="col-md-2">
+
+    <section sidebarWatch id="Left" class="left-sidebar">
+        
+        
+        <ul class="nav nav-pills nav-stacked">
+        
+        <li>
+          <div class="create-buttons">
+            <div class="btn-group">
+            
+                  <button data-toggle="dropdown" class="btn btn-default dropdown-toggle" type="button">
+                   <span class="glyphicon glyphicon-plus"></span> Create
+                    <span style="margin: -14px -7px 2px -3px; color: rgb(236, 236, 236);" class="caret"></span>
+                  </button>
+            
+                    <ul class="dropdown-menu" role="menu">
+                    <li style="color: rgb(159, 159, 159); padding: 0px 11px; font-size: 13px;"><p style="margin: 0px;">Database:</p></li>
+                    <li class="divider"></li>
+                    <li><a (click)="openCreateForm('protein')">  <i class=""></i> Protein</a></li>
+                    <li><a (click)="openCreateForm('organism')"> <i class=""></i> Organism</a></li>
+                    <li><a (click)="openCreateForm('tag')">  <i class=""></i> tag</a></li>
+                    <li><a (click)="openCreateForm('blogpost')"> <i class=""></i> blogpost</a></li>
+            
+                    
+    
+                    </ul>
+            
+                  </div>
+            
+     </div>
+        </li>
+              <li  *ngFor="let item of items" class="item"  >        
+                   <a routerLink="{{ item.route }}" routerLinkActive="active"
+                   (click)="SelectItem(item.table)">
+                    {{item.title}}
+                  </a>
+              </li> 
+        
+            </ul>
+            
+              
+          </section>
+  
+  </div>

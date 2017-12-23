@@ -1,0 +1,148 @@
+
+<h2> <a [routerLink]="[ '/proteins' , protein?.id  ]" > {{ protein?.name}} < </a> |  {{ r_protein?.recommendedName.fullName.value }} </h2>
+
+
+<div class="row">
+        <div class="col-md-12">
+            <ul class="nav nav-tabs">
+                
+                <li class="active"><a href="#GeneralInfoTab" data-toggle="tab">General Info</a></li>
+                <li><a href="#SequenceInfoTab" data-toggle="tab">Sequence Information</a></li>
+                <li><a href="#OrganismInfoTab" data-toggle="tab">Organism Information</a></li>
+                <li><a href="#IdentificationTab" data-toggle="tab">Identification</a></li>
+                
+                </ul>
+    
+                <div class="tab-content">
+                    
+                    <div class="tab-pane active" id="GeneralInfoTab">
+                        
+                        <div class="well">  
+                        
+                            <b>Reference info:</b>
+                            <div class="well">
+                                <ul>
+                            <li>reference id: {{ reference?.id}} </li>
+                            <li>protein id: {{ reference?.protein_id}} </li>
+                            <li>reference DB: {{ reference?.database}} </li>
+                            <li>reference accession: {{ reference?.accession}} </li>
+                                </ul>
+                                </div>
+                            <hr>
+                            <b>Protein info:</b>
+                            <div class="well">
+                                <ul>
+                            <li> id: {{ protein?.id}} </li>
+                            <li>name: {{ protein?.name}} </li>
+                            <li> type_id: {{ protein?.type_id }} </li>
+                            <li> type: {{ protein?.type }} </li>
+                                </ul>
+                            </div>
+
+                            <div *ngIf="r_Protein" class="well">
+                                    <ul> <b>r_Protein : </b>
+                                        <li> protein full name: {{ r_protein?.recommendedName.fullName.value }} </li>
+                                       <li> EC number: {{ r_protein?.recommendedName.ecNumber[0].value }} </li> 
+                                           <li> short name: {{ r_protein?.recommendedName.shortName[0].value }} </li> 
+
+                                    
+                                    </ul>
+                              
+                             </div>
+                        
+                        </div>
+    
+                            
+                    </div>
+    
+
+                    <div class="tab-pane" id="SequenceInfoTab">
+                        
+                        <div class="well">
+                                <b>r_Sequence : </b>
+                                <div class="well">
+                                        <ul> 
+                                           
+                                            <li> length: {{ r_sequence?.length }} </li>
+                                            <li> Mass: {{ r_sequence?.mass }} </li>
+                                        </ul>
+                                  
+                                 </div>
+
+                                <b>FASTA:</b>
+                                
+                                  <li class="well"> {{ r_fasta?._body }} </li>
+
+                                  <b>r_gene : </b>
+                                  <div *ngIf="r_gene" class="well">
+                                          <ul>    
+                                              <li> name: {{ r_gene[0].name.value }} </li>                                              
+                                          </ul>
+                                    
+                                   </div>
+
+
+                        </div>
+                    </div>
+                    <div class="tab-pane" id="OrganismInfoTab">
+                            
+                            <div class="well">
+                                    <b>r_organism : </b>
+                                    <li> taxonomy Id: {{ r_organism?.taxonomy}} </li>
+                                      
+                                      <li>lineage:<br>
+                                        <span *ngFor="let taxon of r_organism?.lineage">{{ taxon }} > </span>
+                                    </li>
+                                    <li>Organism names: <br>
+                                      <span *ngFor="let name of r_organism?.names">{{ name.value }} , </span>
+                                  </li>
+                            </div>
+                    </div>
+                    
+                    <div class="tab-pane" id="IdentificationTab">
+                            
+                            <div *ngIf="r_geneNames" class="well">
+                                    <b>r_geneNames : </b>
+                                    <li> entrez_id: {{ r_geneNames?.entrez_id}} </li>
+                                     <li> enzyme_id: {{ r_geneNames.enzyme_id}} </li> 
+                                    <li> hgnc_id: {{ r_geneNames?.hgnc_id}} </li>
+                                    <li> location: {{ r_geneNames?.location}} </li>
+                                    <li> location_sortable: {{ r_geneNames?.location_sortable}} </li>
+                                    <li> locus_group: {{ r_geneNames?.locus_group}} </li>
+                                    <li> name: {{ r_geneNames?.name}} </li>
+                                    <li> pubmed_id: {{ r_geneNames.pubmed_id}} </li>
+                                    <li> refseq_accession: {{ r_geneNames.refseq_accession}} </li>
+                                    <li> symbol: {{ r_geneNames?.symbol}} </li>
+                                    
+
+
+
+
+            
+                            </div>
+                    </div>
+    
+    
+                </div> <!-- end tab-content -->
+        </div>
+    </div>
+
+
+
+<ul>
+    
+
+
+  <li>
+
+  </li>
+
+
+
+  
+  
+
+  
+   
+
+</ul>

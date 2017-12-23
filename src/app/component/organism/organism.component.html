@@ -1,0 +1,22 @@
+<div class="row">
+  
+  <div class="col-md-6">
+
+
+    <input
+    type="text" 
+    class="form-control"
+    type="text" 
+    [(ngModel)]="term"
+    placeholder="filter organisms">
+    
+  <div *ngFor="let organism of organisms | filter:term">
+    <organism-listing [organism]='organism' (onSelect)="onItemSelect($event)" ></organism-listing>
+     
+  </div>
+  
+  </div><!--  end col-md -->
+  
+  
+  
+  </div>
